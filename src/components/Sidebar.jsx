@@ -12,7 +12,7 @@ const SideBar = () => {
     return (
         <section className="side-bar bg-blue-400 lg:w-[40%] items-center flex-col p-5 justify-between hidden lg:flex">
 
-            <img src="src/assets/images/name.jpg" alt="profile" className="w-32 h-32 object-cover rounded-lg" loading='lazy' />
+            <img src={require('../assets/images/name.jpg')} alt="profile" className="w-32 h-32 object-cover rounded-lg" loading='lazy' />
 
             <h3 className='text-white text-xl font-medium my-3 '>Mostafa Mahmoud</h3>
 

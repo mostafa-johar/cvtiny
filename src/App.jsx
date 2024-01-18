@@ -25,7 +25,7 @@ const App = () => {
           <section className="Content lg:w-[60%] p-3 overflow-y-auto ">
 
             <Routes>
-              <Route path='/' element={<About />} />
+              <Route exact path='/' element={<About />} />
               <Route path='/resume' element={<Resume />} />
               <Route path='/portofolio' element={<Portofolio />} />
               <Route path='/contact' element={<Contact />} />

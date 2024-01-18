@@ -6,31 +6,31 @@ const Portofolio = () => {
         {
             link : 'https://aniiimee.netlify.app/',
             title : 'The Anime App',
-            src : 'src/assets/images/animeApp.png',
+            src : require('../assets/images/animeApp.png'),
             id : 1
         },
         {
             link : 'https://mostafa-johar.github.io/dash/',
             title  :'Dashboard',
-            src : 'src/assets/images/dashboard.png',
+            src : require('../assets/images/dashboard.png'),
             id : 2
         },
         {
             link : 'https://taskpaina.netlify.app/',
             title  :'Task pania',
-            src : 'src/assets/images/taskPania.png',
+            src : require('../assets/images/taskPania.png'),
             id : 3
         },
         {
             link : 'https://mostafa-johar.github.io/ElDisha/',
             title  :'LandingPage',
-            src : 'src/assets/images/landingPage.png',
+            src : require('../assets/images/landingPage.png'),
             id : 4
         },
         {
             link : 'https://mostafa-johar.github.io/deployTodo/',
             title  :'Todo List',
-            src : 'src/assets/images/todolist.png',
+            src :  require('../assets/images/todolist.png'),
             id : 5
         },
     ])
