@@ -4,6 +4,10 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import Social from './Socails'
 import Address from './icons/address';
 
+// images
+import name from '../assets/images/name.jpg'
+
+
 
 // component 
 const SideBar = () => {
@@ -12,9 +16,9 @@ const SideBar = () => {
     return (
         <section className="side-bar bg-blue-400 lg:w-[40%] items-center flex-col p-5 justify-between hidden lg:flex">
 
-            <img src={require('../assets/images/name.jpg')} alt="profile" className="w-32 h-32 object-cover rounded-lg" loading='lazy' />
+            <img src={name} alt="profile" className="w-32 h-32 object-cover rounded-lg" loading='lazy' />
 
-            <h3 className='text-white text-xl font-medium my-3 '>Mostafa Mahmoud</h3>
+            <h3 className='text-white text-xl font-medium my-3 '>Ali Mahmoud</h3>
 
             <div className='bg-white text-black text-l font-medium px-5 py-1 rounded-3xl '>Front-End developer</div>
 

@@ -42,7 +42,7 @@ const Resume = () => {
             title: 'Web Developer',
             year: '2018-2019',
             text: 'I have a developer certificate from computer studies institute at the Armed Force in Alex.',
-            id: 3
+            id: 4
         }
     ])
     const [Professional, setProfessional] = useState([
