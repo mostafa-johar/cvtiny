@@ -30,13 +30,15 @@ const About = () => {
                             <li>Age: <span className="text-black">24</span></li>
                             <li>Experience: <span className="text-black">1</span></li>
                             <li>Language: <span className="text-black">Arabic</span></li>
+                            <li className='lg:hidden'>Gmail: <span className="text-black sm:text-sm md:text-base">mstqym68@gmail.com</span></li>
+                            <li className='lg:hidden'>Phone: <span className="text-black">01553669005</span></li>
                         </ul>
 
                     </div>
 
                     <div className="bg-slate-100 p-3">
                         <h3 className="heading_title">Social</h3>
-                        <Social bg="bg-blue-400 "/>
+                        <Social bg="bg-blue-400 " />
                     </div>
 
                 </section>
@@ -50,7 +52,7 @@ const About = () => {
                 <section className="flex justify-center items-center gap-4  mt-4">
 
                     <div className="border-2 p-3 rounded-lg text-center">
-                    <FontAwesomeIcon icon={faCode} className='text-blue-500' />
+                        <FontAwesomeIcon icon={faCode} className='text-blue-500' />
                         <h6 className="font-bold">Front-end</h6>
                         <p className="text-gray-700 text-sm">
                             High-quality development of sites at the professional level
@@ -58,7 +60,7 @@ const About = () => {
                     </div>
 
                     <div className="border-2 p-3 rounded-lg text-center">
-                    <FontAwesomeIcon icon={faCode} className='text-blue-500' />
+                        <FontAwesomeIcon icon={faCode} className='text-blue-500' />
                         <h6 className="font-bold">Back-end</h6>
                         <p className="text-gray-700 text-sm">
                             High-quality development of sites at the professional level
@@ -66,7 +68,7 @@ const About = () => {
                     </div>
 
 
-                </section>  
+                </section>
             </div>
         </article>
     );

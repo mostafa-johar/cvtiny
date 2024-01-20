@@ -51,9 +51,9 @@ const Portofolio = () => {
             <section className="grid md:grid-cols-3 gap-5 mt-4">
               {
                 project.map((proj)=>(
-                    <a href={proj.link} target="_blank" key={proj.id}>
-                    <div className="shadow-md p-3 hover:scale-110 transition-all">
-                        <img src={proj.src} alt="portofolio" loading='lazy'/>
+                    <a href={proj.link} target="_blank" key={proj.id} className="min-h-[150px]">
+                    <div className="shadow-md p-3 hover:scale-110 transition-all h-full w-full">
+                        <img src={proj.src} alt="portofolio" loading='lazy' className="min-h-[100px]" />
                         <p className="text-black mt-2 text-center text-lg font-medium ">{proj.title}</p>
                     </div>
                 </a>
